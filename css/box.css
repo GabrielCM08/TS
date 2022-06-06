@@ -1,0 +1,60 @@
+body,
+header,
+nav,
+ul,
+li {
+  padding: 0px;
+  margin: 0px;
+}
+
+hr{
+ border-color: black;
+}
+
+.header {
+  background-color: gray;
+}
+
+.menu1 {
+  text-align: right;
+}
+.menu1 li {
+  display: inline-block;
+}
+
+.menu2 li {
+  display: inline-block;
+}
+.menu2 {
+  text-align: center;
+}
+
+.menu3 li {
+  display: inline-block;
+}
+.menu3 {
+  text-align: start;
+  padding-bottom: 30px;
+}
+
+.subMenu {
+  background-color: aquamarine;
+  padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subMenu li {
+  display: inline-block;
+}
+
+.subMenu2 {
+  background-color: rgb(211, 66, 9);
+    padding: 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.subMenu2 li {
+  display: inline-block;
+}

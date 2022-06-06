@@ -1,0 +1,22 @@
+.voltar button {
+  background-color: #09ce10; /* Green */
+  border: 2px solid black;
+  text-align: center;
+  display: inline-block;
+  transition-duration: 0.4s;
+  padding: 5px 35px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-family: Helvetica, sans-serif, Arial;
+  border-radius: 5px;
+  margin-bottom: 100px;
+}
+
+.voltar button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #118f05; /* Green */
+}
+

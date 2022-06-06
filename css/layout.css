@@ -1,0 +1,358 @@
+/*ESTILO GERAIS*/
+body,
+figure,
+img,
+div,
+header,
+nav,
+main,
+ul,
+li,
+p,
+section,
+a,
+article,
+h1,
+h2,
+footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "roboto", sans-serif;
+}
+
+figcaption {
+  display: none;
+}
+
+body {
+  background-color: #18191b;
+  text-align: center;
+}
+
+.header {
+  background-color: rgb(37 38 39);
+}
+
+.logo img {
+  width: 80px;
+}
+
+#inicio {
+  background-color: #f5f5f530;
+}
+#inicio:hover {
+  background-color: #898d9030;
+}
+
+.menuHeader li {
+  display: inline-block;
+  margin-bottom: 10px;
+}
+.menuHeader li button {
+  color: white;
+  background-color: transparent;
+  border-style: none;
+}
+.menuHeader li button {
+  text-align: center;
+  transition-duration: 0.4s;
+  font-size: 12px;
+  font-weight: 200px;
+  color: white;
+  border-radius: 5px;
+  background-color: transparent;
+  border-style: none;
+}
+.menuHeader li button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+    0 17px 50px 0 rgba(0, 0, 0, 0.19);
+  background-color: #898d9030;
+}
+
+.rMenuHeader {
+  display: none;
+}
+
+.subMenu {
+  height: 110px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: linear-gradient(to bottom right, #00c4cc, #8b3dff, #7300e6);
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.subMenu h2 {
+  color: white;
+  padding-top: 15px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.search input {
+  margin-top: 10px;
+  outline-style: none;
+  width: 75%;
+  background-color: #18191b;
+  color: white;
+  padding: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "roboto", sans-serif;
+  border-radius: 3px;
+  border-style: none;
+}
+
+.search img {
+  width: 24px;
+  background-color: #18191b;
+  margin: -8px;
+  border-radius: 5px;
+}
+
+.iconsSub li {
+  display: none;
+}
+
+.sugestao {
+  margin: 3px;
+}
+
+.sugestao h3 {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+}
+
+.sugestao button {
+  background-color: rgba(255, 255, 255, 0.048);
+  border-style: none;
+  text-decoration: none;
+  width: 110px;
+  height: 90px;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 3px;
+}
+
+.sugestao button:hover {
+  background-color: rgba(43, 43, 87, 0.233);
+}
+
+.sugestao:hover .mostrar {
+  display: block;
+}
+
+.mostrar {
+  display: none;
+  color: red;
+  width: 100%;
+  font-weight: bold;
+  font-size: 30px;
+  pointer-events: none;
+}
+
+.sugestao li {
+  display: inline-block;
+}
+
+.sugestao p {
+  padding-top: 5px;
+  padding-bottom: 10px;
+  text-align: start;
+  color: white;
+}
+
+@media only screen and (min-width: 991px) {
+  body {
+    background-color: #18191b;
+    text-align: center;
+  }
+
+  .header {
+    background-color: #252627;
+    max-width: none;
+  }
+
+  .container {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  #logo {
+    width: 80px;
+    margin: 0px 20px;
+    transform: translateY(10px);
+  }
+
+  #inicio {
+    background-color: #f5f5f530;
+    padding: 10px;
+  }
+
+  #inicio:hover {
+    background-color: #898d9030;
+  }
+
+  .menuHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menuHeader li button {
+    text-align: center;
+    transition-duration: 0.4s;
+    padding: 10px 35px;
+    font-size: 14px;
+    font-weight: 200px;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: none;
+  }
+
+  .menuHeader li button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #898d9030;
+  }
+
+  .rMenuHeader {
+    display: block;
+    padding-top: 10px;
+  }
+
+  .rMenuHeader li button {
+    transition-duration: 0.4s;
+    color: white;
+    border-radius: 5px;
+    background-color: transparent;
+    border-style: none;
+  }
+
+  .rMenuHeader img {
+    width: 24px;
+    height: 24px;
+  }
+
+  .rMenuHeader li button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),
+      0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    background-color: #898d9030;
+  }
+
+  .subMenu {
+    height: 300px;
+    margin: 30px;
+  }
+
+  .subMenu h2 {
+    color: white;
+    padding-top: 40px;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+  }
+  .search img {
+    width: 38px;
+    background-color: #18191b;
+    margin: -14px;
+    border-radius: 5px;
+  }
+
+  .search input {
+    margin-top: 30px;
+    outline-style: none;
+    width: 40%;
+    background-color: #18191b;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+    border-radius: 5px;
+    border-style: none;
+  }
+
+  .iconsSub li {
+    margin: 50px 28px;
+    display: inline-block;
+  }
+
+  .iconsSub button {
+    background-color: rgba(245, 245, 245, 0.164);
+    border-style: none;
+    border-radius: 100%;
+    transition: 0.4s;
+    align-items: center;
+  }
+
+  .iconsSub button:hover {
+    background-color: white;
+  }
+
+  .iconsSub img {
+    background-color: transparent;
+    border-style: none;
+    width: 44px;
+  }
+
+  .iconsSub p {
+    margin-top: 10px;
+    color: white;
+  }
+
+  .sugestao {
+    margin-left: -80px;
+  }
+
+  .sugestao h3 {
+    margin-top: 10px;
+    margin-left: 135px;
+    text-align: start;
+    color: white;
+  }
+
+  .sugestao button {
+    background-color: rgba(255, 255, 255, 0.048);
+    border-style: none;
+    text-decoration: none;
+    width: 180px;
+    height: 160px;
+    border-radius: 10px;
+  }
+
+  .sugestao button:hover {
+    background-color: rgba(43, 43, 87, 0.233);
+  }
+
+  .sugestao:hover .mostrar {
+    display: block;
+  }
+
+  .mostrar {
+    display: none;
+    color: red;
+    width: 100%;
+    font-weight: bold;
+    font-size: 30px;
+    pointer-events: none;
+  }
+
+  .sugestao li {
+    padding: 10px;
+    display: inline-block;
+  }
+
+  .sugestao p {
+    margin-top: 10px;
+    text-align: start;
+    color: white;
+  }
+}

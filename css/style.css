@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.tittle {
+  margin-top: 20px;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  background: rgb(207, 201, 201);
+}
+
+.header header h1 {
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  padding: 15px;
+  background-color: orange;
+}
+
+.mainMenu {
+  text-align: center;
+  background-color: green;
+}
+
+.mainMenu ul {
+  list-style: none;
+  justify-content: space-between;
+  display: inline-block;
+  padding: 20px;
+}
+
+.mainMenu ul a {
+  padding: 10px 100px;
+  border-radius: 10px;
+}
+
+.mainMenu ul li a {
+  background-color: greenyellow;
+}
+
+.mainMenu ul a {
+  padding: 10px 100px;
+  background-color: aqua;
+}
+
+.menu li {
+  position: relative;
+  float: left;
+}
+
+.menu li a {
+  background-color: none;
+  color: #333;
+  text-decoration: none;
+  margin-top: 10px;
+  padding: 10px 30px;
+  display: block;
+}
+
+.menu li a:hover {
+  background: #333;
+  color: #fff;
+  -moz-box-shadow: 0 3px 10px 0 #ccc;
+  -webkit-box-shadow: 0 3px 10px 0 #ccc;
+  box-shadow: 0 3px 10px 0 #ccc;
+  text-shadow: 0px 0px 5px #fff;
+}
+
+.menu li ul {
+  position: absolute;
+  top: 45px;
+  left: 0;
+  background-color: #d3d3d370;
+  display: none;
+}
+
+.menu li:hover ul,
+.menu li.over ul {
+  display: block;
+  border-radius: 10px;
+}
+
+.menu li ul li {
+  display: block;
+  width: 150px;
+}
+
+.center {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
+.menuLeft aside li {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.menuLeft aside li a {
+  padding: 10px 100px;
+  background-color: rgb(130, 226, 226);
+  border-radius: 10px;
+}
+
+.main {
+  justify-content: center;
+  text-align: center;
+  margin: 0px 30px;
+  padding-bottom: 300px;
+  background-color: rebeccapurple;
+  min-height: 500px;
+}
+
+.main p {
+  margin: 20px 30px;
+}
+
+.menuRight aside li {
+  list-style: none;
+  margin-top: 40px;
+}
+
+.menuRight aside li a {
+  padding: 10px 100px;
+  background-color: rgb(3, 102, 102);
+  border-radius: 10px;
+}
+
+.footer footer {
+  padding: 20px;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  display: block;
+  margin-bottom: 0px;
+  background-color: yellow;
+}
