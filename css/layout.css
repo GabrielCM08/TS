@@ -37,8 +37,13 @@ body {
   background-color: rgb(37 38 39);
 }
 
-.logo img {
-  width: 80px;
+#logoMob {
+  width: 65px;
+  margin-top: 10px;
+}
+
+#logo {
+  display: none;
 }
 
 #inicio {
@@ -185,7 +190,12 @@ body {
     padding: 0px;
   }
 
+  #logoMob {
+    display: none;
+  }
+
   #logo {
+    display: inline-block;
     width: 80px;
     margin: 0px 20px;
     transform: translateY(10px);
