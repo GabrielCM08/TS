@@ -1,0 +1,162 @@
+/*CSS RESET*/
+body,
+figure,
+img,
+div,
+header,
+nav,
+main,
+ul,
+li,
+p,
+section,
+a,
+article,
+h1,
+h2,
+footer {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  font-family: "roboto", sans-serif;
+}
+
+/* Container Header */
+.header {
+  background-color: #0f1111;
+}
+
+/* Lista Header-Menu/Nav */
+.headerMenu ul li {
+  display: inline-block;
+}
+
+/* Logo Nav Header */
+.headerMenu img {
+  height: 30px;
+  width: 100%;
+  padding: 1px 15px 0 17px;
+  margin-top: 1px;
+  transform: translateY(12px);
+  cursor: pointer;
+}
+
+/* Buttons Nav Header (list) */
+.headerMenu button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  transform: translateY(15px);
+}
+/* Hover Effect on Buttons */
+.headerMenu button:hover {
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+/* Text of Buttons Nav Header */
+.headerMenu p {
+  color: gainsboro;
+  font-weight: lighter;
+  font-family: "Helvetica";
+  line-height: 14px;
+  height: 14px;
+  float: left;
+  clear: both;
+  font-size: 11px;
+}
+
+
+/* Bold Version of Text */
+#headerBold {
+  color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+/* SearchBar Nav Header */
+.headerMenu input {
+  width: 875px;
+  padding: 13px;
+  margin: 10px 15px 10px 15px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Div Carrinho*/
+#carrinho {
+  transform: translateY(-15px);
+}
+
+/* Pos img Carrinho */
+#carrinho img {
+  transform: translateX(-60px);
+}
+
+/* Carrinho button */
+#carrinho button {
+  padding-left: 60px;
+}
+
+/* Carrinho Text */
+#carrinho p {
+  transform: translateY(-15px);
+  font-family: "roboto";
+  font-weight: 300;
+}
+
+/* Submenu Container */
+.headerMenuSub {
+  background-color: #232f3e;
+}
+
+/* List Header-SubMenu/Nav */
+.headerMenuSub ul li {
+  display: inline-block;
+}
+
+/* Link Style */
+.headerMenuSub a {
+  text-decoration: none;
+  font-style: none;
+  color: white;
+}
+
+/* Buttons SubNav Header (list) */
+.headerMenuSub button {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 5px;
+  margin: 5px;
+  font-family: "roboto";
+  font-size: 14px;
+}
+/* Hover Effect on Buttons */
+.headerMenuSub button:hover {
+  border: solid 1px white;
+  cursor: pointer;
+}
+
+#internacional {
+  margin-left: 170px;
+}
+
+#internacional b {
+  font-family: "roboto";
+  font-size: 24px;
+}
+
+.container {
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container img {
+  width: 1490px;
+}
